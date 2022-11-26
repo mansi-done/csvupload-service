@@ -41,6 +41,7 @@ app.get('/users', verifyToken ,(req, res) => {
             console.log(err);
         }
         else {
+            console.log(items);
             res.json({ items: items });
         }
     });
