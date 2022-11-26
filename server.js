@@ -107,11 +107,11 @@ function verifyToken(req,res,next){
 
 mongoose.connect(process.env.MONGO_URL,
 { useNewUrlParser: true, useUnifiedTopology: true }, err => {
+    console.log(process.env.MONGO_URL)
     console.log('Connected to database!')
 });
 
 app.listen(process.env.PORT || 5000, err => {
-    if (err)
-        throw err
+    if (err) throw err
     console.log('Server started!')
 });
