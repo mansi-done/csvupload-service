@@ -1,8 +1,8 @@
 {
-  "name": "csv-upload-tutorial-medium",
+  "name": "noapp-assignment",
   "version": "1.0.0",
-  "description": "Trying to upload csv files to MongoDB",
-  "main": "index.js",
+  "description": "upload files to csv",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
